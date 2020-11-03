@@ -1,0 +1,93 @@
+
+/*=======================================================
+=            CSS EFFETTI, FILTRI E ANIMAZIONI           =
+========================================================*/
+
+
+/*----------  Classi utility  ----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 1000px;
+   
+    margin: 0 auto;
+}
+
+.ex_c {
+    background-color: grey;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+
+/*---------- End classi utility  ----------*/
+
+
+
+/*====================================================
+=            Section comment Esercizio 1            =
+=====================================================*/
+
+.ex_c {
+    margin-top: 20px;
+}
+
+
+.red_1  {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey; 
+    border: 1px solid darkred;           
+    transition: 2s;
+
+}
+
+.red_1:hover {
+    background-color: darkred;
+}
+
+
+/*=====  End of Section comment Esercizio 1  ======*/
+
+
+/*====================================================
+=            Section comment Esercizio 2            =
+=====================================================*/
+
+.ex_c {
+    margin-top: 20px;
+}
+
+
+.red_2  {
+    width: 100px;
+    height: 100px;
+    background-color: darkred; 
+    border: 1px solid darkred; 
+    transition: 2s;        
+}
+
+.red_2:active {
+    width: 100%;
+}
+
+
+/*=====  End of Section comment Esercizio 2  ======*/
