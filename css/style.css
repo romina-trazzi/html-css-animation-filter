@@ -15,7 +15,6 @@
 
 h1 {
     text-align: center;
-    margin-bottom: 70px;
     padding: 30px;
 }
 
@@ -35,6 +34,7 @@ h2 {
     background-color: grey;
     padding: 20px;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 
@@ -45,11 +45,6 @@ h2 {
 /*====================================================
 =            Section comment Esercizio 1            =
 =====================================================*/
-
-.ex_c {
-    margin-top: 20px;
-}
-
 
 .red_1  {
     width: 100px;
@@ -72,11 +67,6 @@ h2 {
 =            Section comment Esercizio 2            =
 =====================================================*/
 
-.ex_c {
-    margin-top: 20px;
-}
-
-
 .red_2  {
     width: 100px;
     height: 100px;
@@ -91,3 +81,48 @@ h2 {
 
 
 /*=====  End of Section comment Esercizio 2  ======*/
+
+
+/*====================================================
+=            Section comment Esercizio 3            =
+=====================================================*/
+
+.red_3  {
+    width: 100px;
+    height: 100px;
+    background-color: darkred; 
+    border: 1px solid darkred; 
+    transition: 0.5s;        
+}
+
+.red_3:hover {
+    border-radius: 50%;
+}
+
+
+/*=====  End of Section comment Esercizio 3  ======*/
+
+
+/*====================================================
+=            Section comment Esercizio 4            =
+=====================================================*/
+
+.red_4  {
+    width: 100px;
+    height: 100px;
+    background-color: darkred; 
+    border: 1px solid darkred; 
+    transition: 2s;        
+}
+
+.red_4:hover {
+    opacity: 0%;
+}
+
+
+/*=====  End of Section comment Esercizio 4  ======*/
+
+
+
+
+
