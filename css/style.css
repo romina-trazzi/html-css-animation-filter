@@ -21,20 +21,31 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: lighter;
-    margin-bottom: 20px;
 }
 
 .container {
     width: 1000px;
-   
     margin: 0 auto;
 }
 
 .ex_c {
     background-color: grey;
+    height: 150px;
     padding: 20px;
     margin-bottom: 40px;
     margin-top: 20px;
+    position: relative;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: darkred; 
+    border: 1px solid darkred; 
+    transition: 2s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
@@ -46,16 +57,12 @@ h2 {
 =            Section comment Esercizio 1            =
 =====================================================*/
 
-.red_1  {
-    width: 100px;
-    height: 100px;
-    background-color: lightgrey; 
-    border: 1px solid darkred;           
+.grey  {
+    background-color: lightgrey;          
     transition: 2s;
-
 }
 
-.red_1:hover {
+.grey:hover {
     background-color: darkred;
 }
 
@@ -67,15 +74,11 @@ h2 {
 =            Section comment Esercizio 2            =
 =====================================================*/
 
-.red_2  {
-    width: 100px;
-    height: 100px;
-    background-color: darkred; 
-    border: 1px solid darkred; 
-    transition: 2s;        
+.click  {      
+    position: relative;
 }
 
-.red_2:active {
+.click:active {
     width: 100%;
 }
 
@@ -87,15 +90,11 @@ h2 {
 =            Section comment Esercizio 3            =
 =====================================================*/
 
-.red_3  {
-    width: 100px;
-    height: 100px;
-    background-color: darkred; 
-    border: 1px solid darkred; 
+.circle  { 
     transition: 0.5s;        
 }
 
-.red_3:hover {
+.circle:hover {
     border-radius: 50%;
 }
 
@@ -106,16 +105,8 @@ h2 {
 /*====================================================
 =            Section comment Esercizio 4            =
 =====================================================*/
-
-.red_4  {
-    width: 100px;
-    height: 100px;
-    background-color: darkred; 
-    border: 1px solid darkred; 
-    transition: 2s;        
-}
-
-.red_4:hover {
+     
+.faded:hover {
     opacity: 0%;
 }
 
@@ -123,6 +114,45 @@ h2 {
 /*=====  End of Section comment Esercizio 4  ======*/
 
 
+/*====================================================
+=            Section comment Esercizio 5            =
+=====================================================*/
+
+.dimensions  {
+    width: 50px;
+    height: 50px;
+    transform: translate(50%, -50%); 
+}
+
+.dimensions:hover {
+    transform-origin: bottom left;
+    transform: scale(2);
+}
+
+.dimensions:active {
+    tranform-origin: center;
+    transform: scale(0.5);
+}
+
+/*=====  End of Section comment Esercizio 5  ======*/
 
 
+/*====================================================
+=            Section comment Esercizio 6            =
+=====================================================*/
+
+.airplane > img  {
+    width: 20%; 
+}
+
+.airplane:hover {
+    filter: grayscale(100%);
+}
+
+:not(.airplane:hover) {
+    filter: grayscale(0%);
+}
+
+
+/*=====  End of Section comment Esercizio 6  ======*/
 
