@@ -130,7 +130,7 @@ h2 {
 }
 
 .dimensions:active {
-    tranform-origin: center;
+    transform-origin: center;
     transform: scale(0.5);
 }
 
@@ -145,14 +145,39 @@ h2 {
     width: 20%; 
 }
 
-.airplane:hover {
+.airplane > img:hover {
     filter: grayscale(100%);
 }
 
-:not(.airplane:hover) {
+:not(.airplane>img:hover) {
     filter: grayscale(0%);
 }
 
 
 /*=====  End of Section comment Esercizio 6  ======*/
+
+
+/*======================================================
+    =            Section comment Esercizio 7           =
+=======================================================*/
+
+.airplane_2 > img  {
+    width: 20%;
+    transition: 3s;
+} 
+
+.airplane_2 > img:hover {
+    filter: grayscale(100%);
+    filter: sepia(70%);
+}
+
+:not(.airplane_2>img:hover) {
+    filter: grayscale(0%);
+    filter: sepia(100%);
+}
+
+
+
+
+/*=====  End of Section comment Esercizio 7  ======*/
 
